@@ -186,5 +186,48 @@ footer a {
     margin: -20px 5px 5px 20px;
 }
 
+/*JS Button*/
 
 
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+
+.poop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #1c1624;
+    overflow: hidden;
+    font-family: "Russo One", sans-serif;
+    transform-style: preserve-3d;
+}
+
+.button {
+    position: fixed;
+    margin: 0 auto;
+    width: 50px;
+    border:5px solid #fae428;
+    color: #fae428;
+    border-radius: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.3em;
+    cursor: pointer;
+    height: 50px;
+    opacity: 1;
+    transition: all 0.2s ease;
+    line-height: 30px;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    perspective-origin: 49% 50%;
+    display: flex;
+    justify-content: center;
+}
+
+    p {
+        transition: all 0.2s ease;
+        user-select: none;
+        line-height: 33px;
+        position: absolute;
+    }
