@@ -205,11 +205,10 @@ footer a {
     height: 100%;
     font-family: var(--main-font);
     font-weight: 300;
-    font-size: 11px;
+    font-size: 50px;
     letter-spacing: 1px;
     font-weight: bold;
-    background: var(--third-color);
-    opacity: 0.6;
+    background-color: transparent;
     -webkit-mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
     mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
     -webkit-mask-size: 3000% 100%;
@@ -223,7 +222,7 @@ footer a {
 
 .button-container-2 button:hover {
     -webkit-animation: ani 0.7s steps(29) forwards;
-    animation: ani 0.5s steps(29) forwards;
+    animation: ani 0.7s steps(29) forwards;
 }
 
 
@@ -275,3 +274,4 @@ footer a {
         mask-position: 0 0;
     }
 }
+
